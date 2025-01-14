@@ -6,8 +6,8 @@ const { Builder, By } = require('selenium-webdriver');
     // Login
     async function login(username, password) {
         await driver.get('https://sakshingp.github.io/assignment/login.html');
-        await driver.findElement(By.id('username')).sendKeys('rb3577139@gmail.com');
-        await driver.findElement(By.id('password')).sendKeys('123456');
+        await driver.findElement(By.id('username')).sendKeys('Maharth');
+        await driver.findElement(By.id('password')).sendKeys('Maharth143');
         await driver.findElement(By.className('btn btn-primary')).click();
     }
 
